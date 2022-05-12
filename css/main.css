@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.menu_navbar {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 1rem;
+   padding-right: 1.6rem;
+   height: 6rem; 
+}
+
+.menu_navbar ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.menu_navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu_navbar a:hover {
+    text-decoration: underline;
+}
+
+.menu_cuadrado {
+    border: none;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_cuadrado:hover {
+    background-color: rgba(220, 220, 220, 0.253);
+}
+
+.menu_cuadrado img {
+    height: 2.3rem;
+    width: 2.3rem;
+    cursor: pointer;
+}
+
+.image_logo {
+    border: none;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_logo:hover {
+    background-color: rgba(220, 220, 220, 0.253);
+}
+
+.image_logo img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* main */
+
+.container_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+}
+
+.main__logo-google img {
+    margin-bottom: 32px;
+}
+
+.container__input-global {
+    height: 4.8rem;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 2.4rem;
+    width: 600px;
+    max-width: 600px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.container__input-global:hover {
+    border: 2px solid rgb(219, 219, 219);
+    box-shadow: 0 2px 10px rgb(219, 219, 219);
+}
+
+.container__search-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    
+}
+
+.input__icon-search {
+    position: absolute;
+    left: 10px;
+}
+
+.input__icon-search img {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.input__text-search {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 2.4rem;
+    padding: 0 5rem;
+    font-size: 2rem;
+}
+
+.input__micro-search {
+    position: absolute;
+    right: 10px;
+}
+
+.input__micro-search img {
+    width: 3rem;
+    height: 3rem;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+}
+
+/* Botones buscar y suerte */
+
+.button_search-look {
+    padding: 0.8rem 1rem;
+    margin-bottom: 42px;
+    margin-left: 12px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.button_search-look:hover {
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: 0 1px 1px rgb(219, 219, 219);
+}
+
+.text_company p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.text_company a {
+    margin-right: 8px;
+}
+
+/* footer */
+
+/* .footer_container {
+    background-color: rgb(233, 233, 233);
+} */
+
+.footer_container .country_container {
+    height: 5rem;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    background-color: rgb(233, 233, 233);
+    color: #70757a;
+    padding: 0 3rem;
+    line-height: 5rem;
+    font-size: 1.4rem;
+    position: absolute;
+    width: 100%;
+    bottom: 4.5rem;
+    left: 0;
+    right: 0;
+}
+
+.container__about-config {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 4.5rem;
+    height: auto;
+    padding: 0.3rem 9.5rem;
+    background-color: rgb(233, 233, 233);
+    color: #70757a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container__about-config li:hover {
+    text-decoration: underline;
+}
+
+.about_container ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    font-size: 1.4rem;
+    list-style: none;
+}
+
+/* .about_container ul li:hover {
+    text-decoration: underline;
+} */
+
+.config_container ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    font-size: 1.4rem;
+    list-style: none;
+    height: auto;
+}
+
+
+
+
